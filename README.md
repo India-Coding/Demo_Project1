@@ -1,4 +1,4 @@
-# Demo_Project1
+# FirstProgram
 This is my first project
 #include <iostream>
 using namespace std;
