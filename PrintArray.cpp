@@ -1,6 +1,6 @@
-# FirstProgram
-This is my first project
-#include <iostream>
+// FirstProgram
+//This is my first project
+#include<iostream>
 using namespace std;
 int main() {
    int a[10],i;
