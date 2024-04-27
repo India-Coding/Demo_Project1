@@ -2,7 +2,7 @@
 #include<iostream>
 #include <climits>
 using namespace std;
-int FindMax(int arrsize,int arr[])
+int FindMax(int arrsize,int arr[])      //for max value
 {
     int max=INT_MIN;
     for(int i=0;i<arrsize;i++)
@@ -12,7 +12,7 @@ int FindMax(int arrsize,int arr[])
     }
     return max;
 }
-int FindMin(int arrsize,int arr[])
+int FindMin(int arrsize,int arr[])         //for min value
 {
     int min=INT_MAX;
     for(int i=0;i<arrsize;i++)
@@ -28,9 +28,9 @@ int main()
     cout<<"Enter size of array:";
     cin>>size;
     int arr[size];
-    int arrsize=sizeof(arr)/sizeof(int);
+    int arrsize=sizeof(arr)/sizeof(int);        //calculate array size
     cout<<"Enter value of array:";
-    for(int i=0;i<arrsize;i++)
+    for(int i=0;i<arrsize;i++)                     //input taking in array
     {
            cin>>arr[i];
     }
